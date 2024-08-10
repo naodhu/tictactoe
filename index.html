@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Tic Tac Toe</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<h1>Welcome to Tic Tac Toe</h1>
-<div class="board" id="board"></div>
-<p id="status"></p>
-<button id="restart">Restart Game</button>
-<script src="js/app.js"></script>
-</body
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Tic Tac Toe</title>
+    <!-- Link to Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    />
+    <!-- Link to Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Link to Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Link to Boxicons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+    />
+    <!-- Link to Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Link to your custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1 class="animate__animated animate__bounce">Welcome to Tic Tac Toe</h1>
+      <div class="board" id="board"></div>
+      <p id="status"></p>
+      <p id="score">Score - X: 0 | O: 0 | Draws: 0</p>
+      <button id="restart" class="btn btn-primary">
+        <i class="bx bx-refresh bx-spin"></i> Restart Game
+      </button>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
 </html>
