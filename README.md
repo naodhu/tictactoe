@@ -1,4 +1,4 @@
-## Certainly! Below is a complete `README.md` file tailored for your HTML, CSS, and JavaScript-based Tic Tac Toe project.
+## Here is a complete `README.md` file for your Tic Tac Toe project, including links to the live deployed page and the GitHub repository.
 
 # Tic Tac Toe Game
 
@@ -10,6 +10,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Live Demo](#live-demo)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Customization](#customization)
@@ -19,14 +20,15 @@
 
 ## Introduction
 
-Tic Tac Toe is a simple, classic two-player game where players take turns marking spaces in a 3x3 grid. The first player to align three of their marks in a horizontal, vertical, or diagonal row wins. This project is a modern web version of the game built using HTML, CSS, and JavaScript.
+Tic Tac Toe is a classic two-player game where players take turns marking spaces in a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. This project is a modern web-based version of the game, built using HTML, CSS, and JavaScript.
 
 ## Features
 
-- **Responsive Design**: Works well on both desktop and mobile devices.
-- **Dynamic Gameplay**: Tracks the current player, declares winners, and detects draws.
-- **Scoreboard**: Keeps track of wins, losses, and draws.
-- **Stylish Interface**: Custom design with animated transitions and Font Awesome icons.
+- **Responsive Design**: The game is designed to be fully responsive and works well on desktop and mobile devices.
+- **Modern UI/UX**: Styled with Bootstrap, Font Awesome, and custom CSS for a polished look.
+- **Animations**: Integrated with Animate.css for smooth animations.
+- **Dynamic Scoreboard**: Keeps track of wins, losses, and draws.
+- **Stylish Symbols**: X and O symbols are styled using Font Awesome icons.
 
 ## Installation
 
@@ -39,8 +41,8 @@ To run the project locally, you only need a web browser.
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/tic-tac-toe.git
-cd tic-tac-toe
+git clone https://github.com/naodhu/tictactoe.git
+cd tictactoe
 ```
 
 2. **Open the Project**
@@ -58,6 +60,10 @@ cd tic-tac-toe
 ### Screenshot
 
 ![Tic Tac Toe Game](./assets/screenshot.png)
+
+## Live Demo
+
+Check out the live version of the game: [Tic Tac Toe Live Demo](https://gamestictac.netlify.app/)
 
 ## Project Structure
 
@@ -125,8 +131,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For questions, feedback, or suggestions, please contact me at:
 
 - **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **GitHub**: [naodhu](https://github.com/naodhu)
 
 ---
 
-This `README.md` file is designed to provide clear and comprehensive documentation for your HTML, CSS, and JavaScript Tic Tac Toe project. Be sure to replace placeholders like `yourusername`, `your.email@example.com`, and repository URLs with your actual information.
+This `README.md` file is designed to provide clear and comprehensive documentation for your HTML, CSS, and JavaScript Tic Tac Toe project. Be sure to replace placeholders like `your.email@example.com` with your actual contact information.
