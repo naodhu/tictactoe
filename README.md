@@ -59,7 +59,7 @@ cd tictactoe
 
 ### Screenshot
 
-![Tic Tac Toe Game](./assets/screenshot.png)
+![Tic Tac Toe Game](./img/screenshot.png)
 
 ## Live Demo
 
